@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="vendor.xsl" type="text/xsl"?>
+<PackageName TransmissionID="0792d49a-c09b-4094-9f4e-2357a042865c">
+  <Version>1.0</Version>
+  <DateReported>04/12/2010</DateReported>
+  <TimeReported>10:16:46.9385105</TimeReported>
+  <!-- Status=Disposition -->
+  <ReportPackage Status="Disposition1">
+    <Addresses>
+      <Address>
+        <!-- PersonAddress -->
+        <Name>Stephen Stipulate</Name>
+        <Address>1200 Any Street</Address>
+        <City>Some City</City>
+        <State>XX</State>
+        <Zip>12345</Zip>
+        <Phone>800-555-1212</Phone>
+      </Address>
+    </Addresses>
+    <Parts packageID="APackageId">
+      <packageClientAccount>00000000</packageClientAccount>
+      <DiscardedIdentifier id="NothingOfInterest">
+        <AssemblyId>
+          <IdValue>0547224801-0908</IdValue>
+        </AssemblyId>
+        <!-- Status -->
+        <AssemblyStatus>
+          <Status>OutOfStock</Status>
+          <DateReOrderReceived>2009-09-24T06:09:00</DateReOrderReceived>
+        </AssemblyStatus>
+        <PartVendor>
+          <!-- VendorAddress -->
+          <VendorName>Roger Refactor</VendorName>
+          <VendorAddress>
+            <IdValue name="Address">100 An Avenue Suite 13</IdValue>
+            <IdValue name="City">A Different City</IdValue>
+            <IdValue name="State">YY</IdValue>
+            <IdValue name="Zip">54321</IdValue>
+            <IdValue name="Phone">866-555-1212</IdValue>
+          </VendorAddress>
+        </PartVendor>
+        <PartsMainSegment>
+          <AdditionalSegment>
+            <PartSpecs>
+              <Spec>
+                <PartId>123456</PartId>
+                <Name>Widget1</Name>
+                <ThresholdLevel>000500</ThresholdLevel>
+              </Spec>
+              <Spec>
+                <PartId>234567</PartId>
+                <Name>Widget2</Name>
+                <ThresholdLevel>000200</ThresholdLevel>
+              </Spec>
+            </PartSpecs>
+          </AdditionalSegment>
+        </PartsMainSegment>
+        <AdditionallPartsSegment>
+          <Spec>
+            <PartId>123456</PartId>
+            <PartType>ABC</PartType>
+          </Spec>
+          <Spec>
+            <PartId>234567</PartId>
+            <PartType>CBA</PartType>
+          </Spec>
+        </AdditionallPartsSegment>
+        <AdditionalItems type="RawData" qualifier="mode" vendor="rogerRefactor">
+          <Text>AModeValue</Text>
+        </AdditionalItems>
+        <AdditionalItems type="RawData" qualifier="indicator" vendor="rogerRefactor">
+          <Text>AnIndicator</Text>
+        </AdditionalItems>
+      </DiscardedIdentifier>
+    </Parts>
+  </ReportPackage>
+</PackageName>
